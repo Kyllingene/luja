@@ -1,4 +1,4 @@
-# Web
+# Luja
 
 This is an experiment to create a pseudo-web "replacement".
 
