@@ -38,10 +38,11 @@ you like.
 
 To fulfill my first goal, then, I must compromise: I'll have to build on top of
 existing infrastructure, rather than achieve total independence. This will take
-the form of utilizing git providers (to at least break free of HTTP) to allow
-sites to be hosted gratis on third-party servers. Of course, self-hosting is a
-must, so my DNS must also handle IP addresses. I'll need a format to distinguish
-between these and the URLs of third-party git repositories.
+the form of utilizing git providers through SSH (to at least break free of HTTP)
+to allow sites to be hosted gratis on third-party servers. Of course,
+self-hosting is a must, so my DNS must also handle IP addresses. I'll need a
+format to distinguish between these and the URLs of third-party git
+repositories.
 
 The actual DNS can likely be handled with a git repository; requests to register
 a domain would be a pull request (or equivalent), with careful checks to ensure
